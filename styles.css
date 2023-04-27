@@ -124,6 +124,7 @@ input[type="submit"]:hover {
   margin: 5rem 0;
 }
 
+/* Product Cards */
 .product {
   max-width: 30rem;
   margin: 1.5rem auto;
@@ -160,4 +161,24 @@ input[type="submit"]:hover {
   cursor: pointer;
   background-color: orange;
   transition: background-color 1s;
+}
+
+#footer {
+  background-color: #ddd;
+  padding: 2rem ;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+#footer ul {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+  padding: 0 1rem;
+}
+
+#footer span {
+  font-size: 1.4rem;
 }
