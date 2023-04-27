@@ -112,3 +112,9 @@ input[type="submit"]:hover {
   text-align: center;
   margin: 7rem 0;
 } 
+
+/* Embeded Video */
+.embed-video {
+  width: 100%;
+  height: 32rem;
+}
