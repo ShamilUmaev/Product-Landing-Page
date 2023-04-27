@@ -64,7 +64,7 @@ a {
   margin-top: 14rem;
 }
 
-/* Get started section */
+/* Get started Section */
 .get-started {
   margin-top: 0.8rem;
 }
@@ -99,3 +99,16 @@ input[type="submit"]:hover {
   cursor: pointer;
 }
 
+/* Features Section */
+.features {
+  margin: 7rem 0;
+}
+
+.icons {
+  display: none;
+}
+
+.description {
+  text-align: center;
+  margin: 7rem 0;
+} 
