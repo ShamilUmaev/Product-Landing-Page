@@ -28,11 +28,26 @@ a {
   display: inline-block;
 }
 
-/* Utilities */
+/* Utility classes */
 
 .container {
   max-width: 600px;
   margin: 0 auto;
+}
+
+.btn {
+  padding: 1.1rem 2rem;
+  background-color: #f1c40f;
+  border: none;
+  font-weight: 400;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: orange;
+  transition: background-color 1s;
 }
 
 /* Navigation Bar and Logo Image */
@@ -56,7 +71,7 @@ a {
   text-align: center;
 }
 
-.nav-link {
+#nav-bar .nav-link {
   font-size: 1.6rem;
   padding: .3rem;
 }
@@ -66,16 +81,16 @@ a {
 }
 
 /* Get started Section */
-.get-started {
+#get-started {
   margin-top: 0.8rem;
 }
 
-.get-started h2 {
+#get-started h2 {
   text-align: center;
   margin-bottom: 2rem;
 }
 
-#form {
+#get-started form {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -87,29 +102,20 @@ input[type="email"] {
   margin-bottom: 1.5rem;
 }
 
-input[type="submit"] {
-  padding: 0.6rem 2rem;
-  background-color: #f1c40f;
-  border: none;
-  font-weight: 700;
-  font-size: 1.6rem;
-  text-transform: uppercase;
-}
-
 input[type="submit"]:hover {
   cursor: pointer;
 }
 
 /* Features Section */
-.features {
+#features {
   margin: 7rem 0;
 }
 
-.icon {
+#features .icon {
   display: none;
 }
 
-.description {
+#features .description {
   text-align: center;
   margin: 7rem 0;
 } 
@@ -126,45 +132,30 @@ input[type="submit"]:hover {
 }
 
 /* Product Cards */
-.product {
-  width: 32rem;
+#pricing .product {
+  width: 30rem;
   margin: 1.5rem auto;
   text-align: center;
   border: 1px solid #000;
 }
 
-.product h3 {
+#pricing h3 {
   background-color: #ddd;
   text-align: center;
   padding: 1.2rem 0;
   text-transform: uppercase;
 }
 
-.product h2 {
+#pricing h2 {
   margin: 1.5rem 0 2rem;
 }
 
-.product p {
+#pricing p {
   padding: 0.5rem;
 }
 
-.btn {
-  padding: 1.1rem 2rem;
-  background-color: #f1c40f;
-  border: none;
-  font-weight: 400;
-  font-size: 1.6rem;
-  text-transform: uppercase;
-}
-
-.product .btn {
+#pricing .btn {
   margin: 2rem 0 1.5rem;
-}
-
-.btn:hover {
-  cursor: pointer;
-  background-color: orange;
-  transition: background-color 1s;
 }
 
 #footer {
@@ -188,7 +179,10 @@ input[type="submit"]:hover {
   color: #444;
 }
 
+/* Desktop design */
 @media only screen and (min-width: 992px) {
+
+  /* Navigation Bar and Logo Image */
   #header {
     display: flex;
     flex-direction: row;
@@ -215,10 +209,12 @@ input[type="submit"]:hover {
     margin-top: 8rem;
   }
 
+  /* Utility classes */
   .container {
     max-width: 100%;
   }
 
+  /* Features Section */
   #features {
     margin-top: 12rem;
   }
@@ -248,22 +244,26 @@ input[type="submit"]:hover {
     margin-bottom: 7rem;
   }
 
+  /* Embeded Video */
   .embed-video {
     width: 40%;
     display: block;
     margin: 0 auto;
   }
 
+  /* Pricing Section */
   #pricing {
     display: flex;
     width: 70%;
     margin: 5rem auto;
   }
 
-  .product {
+  #pricing .product {
     margin: 1.5rem auto;
+    width: 32%;
   }
 
+  /* Footer */
   #footer {
     width: 70%;
     margin: 0 auto;
