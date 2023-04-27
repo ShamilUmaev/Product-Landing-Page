@@ -87,12 +87,15 @@ input[type="email"] {
 }
 
 input[type="submit"] {
-  
   padding: 0.6rem 2rem;
   background-color: #f1c40f;
   border: none;
   font-weight: 700;
   font-size: 1.6rem;
   text-transform: uppercase;
+}
+
+input[type="submit"]:hover {
+  cursor: pointer;
 }
 
