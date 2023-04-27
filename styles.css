@@ -41,6 +41,9 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: fixed;
+  top: 0;
+  background-color: #eee;
 }
 
 #header > img {
@@ -55,6 +58,10 @@ a {
 .nav-link {
   font-size: 1.6rem;
   padding: .3rem;
+}
+
+#main {
+  margin-top: 14rem;
 }
 
 /* Get started section */
