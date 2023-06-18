@@ -158,6 +158,7 @@ input[type="submit"]:hover {
   margin: 2rem 0 1.5rem;
 }
 
+/* Footer */
 #footer {
   background-color: #ddd;
   padding: 2rem ;
@@ -209,11 +210,11 @@ input[type="submit"]:hover {
     margin-top: 8rem;
   }
 
-  /* Utility classes */
   .container {
     max-width: 100%;
   }
 
+  /* Get started Section */
   #get-started {
     padding: 0;
   }
