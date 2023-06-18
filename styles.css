@@ -28,10 +28,9 @@ a {
   display: inline-block;
 }
 
-/* Utility classes */
-
 .container {
   max-width: 600px;
+  min-width: 380px;
   margin: 0 auto;
 }
 
@@ -51,7 +50,6 @@ a {
 }
 
 /* Navigation Bar and Logo Image */
-
 #header {
   width: 100%;
   display: flex;
@@ -83,6 +81,7 @@ a {
 /* Get started Section */
 #get-started {
   margin-top: 0.8rem;
+  padding: 0 1.5rem;
 }
 
 #get-started h2 {
@@ -109,6 +108,7 @@ input[type="submit"]:hover {
 /* Features Section */
 #features {
   margin: 7rem 0;
+  padding: 0 1.5rem;
 }
 
 #features .icon {
@@ -214,9 +214,14 @@ input[type="submit"]:hover {
     max-width: 100%;
   }
 
+  #get-started {
+    padding: 0;
+  }
+
   /* Features Section */
   #features {
     margin-top: 12rem;
+    padding: 0;
   }
 
   #features .description {
